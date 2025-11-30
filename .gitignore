@@ -1,0 +1,33 @@
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Datos de pacientes (privacidad)
+backups/*.csv
+
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos temporales del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de matplotlib
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/*.png
+
+# Archivos temporales
+temp/
+tmp/
